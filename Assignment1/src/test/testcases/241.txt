@@ -1,0 +1,8 @@
+
+        procedure main () ;
+        begin
+            for asdfi:=nnn downto x=n[1] do
+            begin
+            end
+        end
+        

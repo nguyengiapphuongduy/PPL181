@@ -1,0 +1,4 @@
+var x,y:integer;
+		function foo(a:real;b:boolean):real; begin return 1; end
+		procedure main(); var x:real; begin x:=foo(1,false); {OK} end
+		procedure f(); var y:integer; y:real; begin end

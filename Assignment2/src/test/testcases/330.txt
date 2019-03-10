@@ -1,0 +1,7 @@
+procedure main();
+		begin
+			while (1) do begin
+				a:=a+1;
+				continue;
+			end
+		end

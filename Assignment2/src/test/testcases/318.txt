@@ -1,0 +1,5 @@
+function f():real; begin
+		if (x) then
+			begin
+			end
+		end

@@ -1,0 +1,5 @@
+function f1(x:boolEAN;y,z:integer):real;
+		var s:string;
+		begin
+			thisisstatement();
+		end

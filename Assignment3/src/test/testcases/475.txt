@@ -1,0 +1,4 @@
+procedure main(); var x:integer;
+		begin while(true)do begin
+		with x:integer; do with x:real; do with x:integer; do continue;
+		end foo(); end

@@ -1,0 +1,4 @@
+var i:integer;
+		procedure main(); begin end
+		procedure p(i:boolean); begin with y:real;y:real; do begin end end
+		

@@ -1,0 +1,7 @@
+
+        function foo(i:integer):real;
+            procedure child_of_foo(real f);
+            begin end
+        begin end
+        procedure main(); begin end
+        

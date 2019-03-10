@@ -1,0 +1,3 @@
+procedure main(); var x:real; begin
+		x:=1; with x:boolean; do begin x:=true; putBool(x); end
+		putFloat(x); end

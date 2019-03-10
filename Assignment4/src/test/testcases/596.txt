@@ -1,0 +1,3 @@
+function gcd(a,b:integer):integer;
+		begin if a=b then return a; if a>b then return gcd(a-b,b); else return gcd(a,b-a); end
+		procedure main(); begin putInt(gcd(45,60)); end

@@ -1,0 +1,4 @@
+var a:integer;procedure foo1();
+		begin putIntLn(4); end
+		procedure main();
+		begin a := foo1 + 1; end

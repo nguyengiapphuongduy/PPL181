@@ -1,0 +1,2 @@
+function MAIN():boolean; begin return true; end
+		procedure main(); begin end

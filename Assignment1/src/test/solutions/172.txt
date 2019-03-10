@@ -1,0 +1,1 @@
+with,a,,,b,:,integer,;,c,:,array,[,1,..,2,],of,real,;,do,<EOF>

@@ -1,0 +1,4 @@
+procedure main(); var x,y:integer; begin
+		x:=-100; y:=200; putInt(x); putInt(y);
+		with a:integer; do begin a:=x; x:=y; y:=a; end
+		putInt(x); putInt(y); end

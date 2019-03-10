@@ -1,0 +1,3 @@
+var x,y:integer;
+		procedure main(); begin end
+		procedure p(x:boolean;x:integer); begin end

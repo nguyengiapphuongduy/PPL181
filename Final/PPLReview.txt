@@ -1,0 +1,51 @@
+32
+Runtime, divided by zero
+
+
+33
+if a!=0 then if (b/a)>8 then ...
+
+
+34
+a!=0 ? (b/a)>8 : false
+
+
+35
+3*4+3, 3*4+3, 4*4+3, 4*4+4
+
+
+37
+labelF = frame.getNewLabel()
+labelO = frame.getNewLabel()
+visit(ast.left, o)
+printout(emitIFFALSE(labelF, o))
+visit(ast.right, o)
+printout(emitIFFALSE(labelF, o))
+printout("iconst_1")
+printout(emitGOTO(labelO, o))
+printout(emitLabel(labelF, o))
+printout("iconst_0")
+printout(emitLabel(labelO, o))
+
+
+39
+a. value-result
+A[j] truyền vào a = 1, j truyền vào i = 0
+
+
+
+43
+-++**abcdef
+
+
+45
+type(x) = T1
+type(f) = T2
+type(h) = T3
+type(s) = T4
+T4 = int #s:=0
+type(i) = T5
+T2 = T1 -> T5 #i:=f(x)
+T3 = T2
+T4 = T5 = int
+type(H) = T1*T2*T3->T4 = T1*(T1->int)*(T1->int)->int

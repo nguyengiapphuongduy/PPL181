@@ -1,0 +1,6 @@
+function foo(b:array [1 .. 2] of integer):array [2 .. 3] of real;
+		var a:array [2 .. 3] of real;
+		begin
+			if (a=1) then return a; //CORRECT
+			else return b; //WRONG
+		end

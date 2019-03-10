@@ -1,0 +1,9 @@
+
+        PROCEDURE main() ;
+        var x,y: real; abc: integer; xx: array[-4 .. -100] of real;
+        var a: string; var b: boolean;
+        BEGIN
+            a := "a";
+            b := (5 or 6)[0];
+        END
+        

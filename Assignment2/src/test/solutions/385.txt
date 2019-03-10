@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[For(Id(asdfi),Id(nnn),BinaryOp(=,Id(x),ArrayCell(Id(n),IntLiteral(1))),False,[CallStmt(Id(write),[Id(asdfi)])])])])

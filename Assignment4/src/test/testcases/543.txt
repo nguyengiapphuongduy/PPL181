@@ -1,0 +1,2 @@
+procedure main(); var x:boolean; begin x:=foo(true); putBoolLn(x); end
+		function foo(x:boolean):boolean; begin return x; end

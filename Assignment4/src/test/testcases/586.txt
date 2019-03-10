@@ -1,0 +1,2 @@
+procedure main(); var a: integer; begin putInt(power(2,3)); end
+		function power(x,y:integer):integer; var i,r:integer; begin r:=1; for i:=1 to y do r:=r*x; return r; end

@@ -1,0 +1,2 @@
+procedure main(); var x:integer;
+		begin x:=5 div 3; y(); end

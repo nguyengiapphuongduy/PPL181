@@ -1,0 +1,4 @@
+
+        var y: array[1.. ]of real;
+        procedure main (); begin end
+        

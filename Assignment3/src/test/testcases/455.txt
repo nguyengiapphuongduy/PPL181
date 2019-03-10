@@ -1,0 +1,2 @@
+procedure main(); var x:boolean;
+		begin x:=-1+2*3>0; y(); end

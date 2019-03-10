@@ -1,0 +1,6 @@
+
+        procedure main () ;
+        begin
+            continue x:=1+1;
+        end
+        

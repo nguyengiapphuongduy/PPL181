@@ -1,0 +1,1 @@
+procedure main(); begin putInt(-2147483648); end

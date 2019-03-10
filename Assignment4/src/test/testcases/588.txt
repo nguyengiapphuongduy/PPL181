@@ -1,0 +1,25 @@
+procedure main(); var a: integer; begin putFloat(max(1,4,2,3)); end
+		function max(x,y,z,t:integer):real; begin 
+		if x>y then
+			if x>z then
+				if x>t then
+					return x;
+				else
+					return t;
+			else
+				if z>t then
+					return z;
+				else
+					return t;
+		else
+			if y>z then
+				if y>t then
+					return y;
+				else
+					return t;
+			else
+				if z>t then
+					return z;
+				else
+					return t;
+		end

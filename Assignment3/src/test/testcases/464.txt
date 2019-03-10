@@ -1,0 +1,2 @@
+procedure main(); var x:string;
+		begin x:="error"; end

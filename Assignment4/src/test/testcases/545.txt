@@ -1,0 +1,2 @@
+procedure main(); begin putString(foo("something")); end
+		function foo(x:string):string; begin return x; end

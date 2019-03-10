@@ -1,0 +1,11 @@
+procedure main();
+		begin
+			with a:boolean;
+			x:array[1 .. 2]of string;
+			do begin
+				x:=x+1;
+				begin
+					a:=TruE;
+				end
+			end
+		end

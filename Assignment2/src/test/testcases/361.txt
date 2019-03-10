@@ -1,0 +1,1 @@
+procedure main(); begin f(NOT 2); end

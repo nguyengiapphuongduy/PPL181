@@ -1,0 +1,2 @@
+procedure main(); var a:real;x:integer;
+		begin a:=x[1]; end

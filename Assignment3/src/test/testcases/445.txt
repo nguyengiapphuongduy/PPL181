@@ -1,0 +1,3 @@
+var x,y:integer;
+		procedure main(); var x:real; begin x:=1;
+		with y:integer;y:real; do begin end end

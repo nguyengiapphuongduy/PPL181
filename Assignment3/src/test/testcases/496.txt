@@ -1,0 +1,3 @@
+procedure main(); begin putString(foo()); foo(); end
+		function foo():string;
+		begin return "return can be a string"; end

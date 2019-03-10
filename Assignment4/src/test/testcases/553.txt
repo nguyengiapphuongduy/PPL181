@@ -1,0 +1,2 @@
+procedure main(); begin foo(1,-1); end
+		procedure foo(x:integer; y:real); begin if (x<y) then return; putInt(1); end

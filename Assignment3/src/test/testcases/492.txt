@@ -1,0 +1,2 @@
+procedure main(); var a:real;
+		begin a:=1; putBOOL(false); putBool(a>0); f(); end

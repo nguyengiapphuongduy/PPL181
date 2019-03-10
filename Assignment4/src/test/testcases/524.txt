@@ -1,0 +1,1 @@
+procedure main(); begin putInt(7 mod 3); end

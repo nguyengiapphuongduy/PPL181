@@ -1,0 +1,3 @@
+function lcm(a,b:integer):integer; var r:integer;
+		begin r:=a; while true do begin if r mod b = 0 then break; r:=r+a; end return r; end
+		procedure main(); begin putInt(lcm(6,8)); end

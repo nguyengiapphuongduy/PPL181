@@ -1,0 +1,5 @@
+
+        procedure main(); begin
+            x:=y:=z:=1;
+        end
+        

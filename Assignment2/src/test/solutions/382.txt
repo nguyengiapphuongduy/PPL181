@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[For(Id(x),IntLiteral(1),IntLiteral(10),True,[CallStmt(Id(write),[Id(x)])])])])

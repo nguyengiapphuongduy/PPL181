@@ -1,0 +1,10 @@
+function f():real; begin
+		if (x) then
+			begin
+				f(x);
+			end
+		else
+			begin
+				x:=1;
+			end
+		end

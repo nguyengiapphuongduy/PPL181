@@ -1,0 +1,6 @@
+function foo():integer; var a:integer; begin
+		for a:=-1 to -2 do
+		with a:integer;b:boolean; do begin b:=true; break; end
+		return 1;
+		end
+		procedure main(); var x:integer; begin x:=foo(); foo(); end

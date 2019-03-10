@@ -1,0 +1,2 @@
+var x,y:integer;
+		procedure main(); var x:real; begin x:=y(1,false); {error} end

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[For(Id(i),Id(a),Id(b),True,[CallStmt(Id(foo),[Id(x)])])])])

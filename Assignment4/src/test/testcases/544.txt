@@ -1,0 +1,2 @@
+procedure main(); var x:real; begin x:=foo(10); putFloat(x); end
+		function foo(x:integer):real; begin return x; end

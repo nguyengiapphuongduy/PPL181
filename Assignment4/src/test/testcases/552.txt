@@ -1,0 +1,4 @@
+procedure main(); begin putFloat(foo(1,1)); putFloat(foo(1,-1)); putFloat(foo(-1,1)); putFloat(foo(-1,-1)); end
+		function foo(x:integer; y:real):real; begin
+		if (x>0) then if (y>0) then return x + y; else return x - y;
+		else if (y>0) then return -x + y; else return -x - y; end

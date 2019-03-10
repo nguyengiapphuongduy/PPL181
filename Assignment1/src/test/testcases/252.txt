@@ -1,0 +1,10 @@
+
+        procedure main () ;
+        begin
+            begin
+                begin
+                    a:=a+1;
+                end
+            end
+        end
+        

@@ -1,0 +1,4 @@
+function foo():integer; var a:real; begin
+		with a:integer;b:real; do begin if a=0 then return 1; else return a; end
+		end
+		procedure main(); var x:integer; begin x:=foo(); foo(); end

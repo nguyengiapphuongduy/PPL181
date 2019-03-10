@@ -1,0 +1,8 @@
+procedure main();
+		begin
+			while (1) do begin
+				a:=a+1;
+				if (a>0) then break;
+				else continue;
+			end
+		end

@@ -1,0 +1,11 @@
+function gcd(a,b:integer):integer;
+		begin if a=b then return a; if a>b then return gcd(a-b,b); else return gcd(a,b-a); end
+		function lcm(a,b:integer):integer; var r:integer;
+		begin r:=a; while true do begin if r mod b = 0 then break; r:=r+a; end return r; end
+		procedure main(); var a,b:integer; begin
+			a:=1234; b:=44350;
+			putString("GCD("); putInt(a); putString(", "); putInt(b); putString(") = ");
+			putInt(gcd(a,b)); putLn();
+			putString("LCM("); putInt(a); putString(", "); putInt(b); putString(") = ");
+			putInt(lcm(a,b));
+		end

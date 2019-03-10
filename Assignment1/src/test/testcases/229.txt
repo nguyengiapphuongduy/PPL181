@@ -1,0 +1,6 @@
+
+        procedure main () ;
+        begin
+            x := fu(g(k)+asdf(asdf(-1))/xxxx);
+        end
+        

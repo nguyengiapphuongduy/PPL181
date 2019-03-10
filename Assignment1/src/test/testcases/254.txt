@@ -1,0 +1,9 @@
+
+        procedure main () ;
+        begin
+            begin
+                a:=a+1;
+            end;
+            fuckasdfthisjklassignment();
+        end
+        

@@ -1,0 +1,6 @@
+var x,y:integer;
+		function f(): array[1 .. 2] of real;
+		var a: array[1 .. 3] of real;
+		begin a[2]:=1.1; return a; end
+		procedure main(); var x:array[1 .. 3]of real;
+		begin f()[1]:=x[1]:=1; end

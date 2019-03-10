@@ -1,0 +1,9 @@
+procedure main(); var x:integer;
+		begin x:=fu(); end
+		function fu():integer;
+		begin with a:real; do with a:boolean;b,c:real; do
+		if(true)then
+			if(b>c)then
+				return -5;
+		else return 6;
+		end

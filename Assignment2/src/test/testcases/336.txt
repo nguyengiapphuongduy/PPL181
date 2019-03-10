@@ -1,0 +1,4 @@
+procedure main();
+		begin
+			with a:boolean; do begin end
+		end

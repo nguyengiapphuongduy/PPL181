@@ -1,0 +1,1 @@
+var x: integer; procedure main(); begin x:=10; putint(x); end

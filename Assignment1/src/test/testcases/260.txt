@@ -1,0 +1,9 @@
+
+        procedure main () ;
+        begin
+            with a:integer; do
+            begin
+                with b:real; do b:=a+b;
+            end
+        end
+        

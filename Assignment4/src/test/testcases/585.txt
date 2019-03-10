@@ -1,0 +1,2 @@
+procedure main(); var a: integer; begin putInt(foo(foo(foo(5)))); end
+		function foo(x:integer):integer; begin putInt(x); return x - 1; end

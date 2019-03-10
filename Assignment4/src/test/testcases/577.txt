@@ -1,0 +1,3 @@
+procedure main(); begin putFloat(foo(1)); putFloat(foo(0)); end
+		function foo(x:integer):real; begin putInt(x);
+		with a:real; do begin a:=0.5; if x<a then return a; end return x; end

@@ -1,0 +1,2 @@
+procedure main(); begin putBool(prim(13)); putBool(prim(4)); end
+		function prim(x:integer):boolean; var i:integer; begin for i:=2 to x-1 do if x mod i = 0 then return false; return true; end

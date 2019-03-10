@@ -1,0 +1,2 @@
+procedure main(); var x,y:array[0 .. 100]of boolean;
+		begin x:=y; end

@@ -1,0 +1,2 @@
+procedure main(); var x:boolean; y:real;
+		begin x:=not (1>0) and then (y>.0) or else (true or false); y(); end

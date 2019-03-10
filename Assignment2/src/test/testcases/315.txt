@@ -1,0 +1,1 @@
+procedure f(x:real;y,z:booleaN); begin end

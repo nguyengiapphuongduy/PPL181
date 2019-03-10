@@ -1,0 +1,6 @@
+
+        procedure main () ;
+            beGin
+                a := b [ 10 ] := foo ( ) [ 3 ] := x := 1 ;
+            END
+        

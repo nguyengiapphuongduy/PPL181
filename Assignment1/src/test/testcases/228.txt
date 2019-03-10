@@ -1,0 +1,6 @@
+
+        procedure main () ;
+        begin
+            x := fu()[1][x*x+1][gu[fu()[0]][1]];
+        end
+        

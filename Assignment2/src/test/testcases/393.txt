@@ -1,0 +1,4 @@
+function foo():real; begin
+		if (a=1) then return 2.3; //CORRECT
+		else return 2;//CORRECT
+		end

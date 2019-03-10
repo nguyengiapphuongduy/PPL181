@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[CallStmt(Id(f),[ArrayCell(CallExpr(Id(fu),[]),IntLiteral(1))])])])

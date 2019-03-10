@@ -1,0 +1,2 @@
+procedure main(); var x:integer; begin x:=foo();end
+		function foo():boolean; begin return true; end

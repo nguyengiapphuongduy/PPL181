@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(f),[],FloatType,[],[If(Id(x),[If(Id(x),[],[])],[CallStmt(Id(goo),[])])])])

@@ -1,0 +1,8 @@
+var a,b:integer;
+		procedure notMain(d:integer; e,f:real); begin putFloat(e+f); return; end
+		procedure main(); var x,y:integer; b:boolean; z:real;
+		begin
+			x:=1; z:=8.9;
+			notMAIN(x,1,z);
+			putFLOAT(z);
+		end

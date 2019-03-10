@@ -1,0 +1,3 @@
+procedure foo();begin return; end
+		procedure main();var a:integer;
+		begin a:=foo(); end

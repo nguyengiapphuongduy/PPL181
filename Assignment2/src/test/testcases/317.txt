@@ -1,0 +1,5 @@
+procedure f(x:real;y,z:booleaN);
+		var vari:array[1 .. 100] of boolean;
+		begin
+			foo(x+1);
+		end

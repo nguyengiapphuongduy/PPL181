@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(f1),[VarDecl(Id(x),BoolType),VarDecl(Id(y),IntType),VarDecl(Id(z),IntType)],FloatType,[VarDecl(Id(s),StringType)],[CallStmt(Id(thisisstatement),[])])])

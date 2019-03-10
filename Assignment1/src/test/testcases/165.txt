@@ -1,0 +1,6 @@
+procedure main () ;
+        begin
+            while (True) do 
+            begin
+            end
+        end

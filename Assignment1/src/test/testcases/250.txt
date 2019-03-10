@@ -1,0 +1,6 @@
+
+        procedure main () ;
+        begin
+            return x:=f()[2];
+        end
+        

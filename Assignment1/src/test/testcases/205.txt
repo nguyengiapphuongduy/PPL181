@@ -1,0 +1,5 @@
+
+        function fu(x:integer):array[1 .. 2]of real;
+        begin end
+        procedure main(); begin end
+        

@@ -1,0 +1,3 @@
+procedure main(); var a:real;x:array[1 .. 10]of integer;
+		begin a:=x[sq(2)]; end
+		function sq(m:real):real; begin return m*m; end

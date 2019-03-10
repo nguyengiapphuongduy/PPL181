@@ -1,0 +1,6 @@
+
+        procedurE foo (b : real) ;
+        beGin
+            aa := b [ 10 ] := foo ( ) [ 3 ] := x := 1 ;
+        end
+        

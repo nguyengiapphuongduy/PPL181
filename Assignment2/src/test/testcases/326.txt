@@ -1,0 +1,4 @@
+procedure main();
+		begin
+			for i:=a to b do begin end
+		end

@@ -1,0 +1,5 @@
+procedure main(); var x:integer;
+		begin x:=fu(); end
+		function fu():integer;
+		begin with a:boolean; do
+		with a:integer; do for a:=-5 to 5 do return 1;end

@@ -1,0 +1,1 @@
+procedure main(); begin f(1.2E1); end

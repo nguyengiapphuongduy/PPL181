@@ -1,0 +1,6 @@
+var x:integer; procedure main(); var x:real; begin
+		x:=1; with x:boolean; do begin x:=true;
+			with x:integer; do begin x:=2; putInt(x); end
+			putBool(x); end
+		putFloat(x); f(); end
+		procedure f(); begin x:=-1; putFloat(x); end

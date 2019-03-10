@@ -1,0 +1,6 @@
+
+        procedure main(); begin
+            if( a >= b >= c ) then a:= b[1];
+            else b:=a[1]:= 1;
+        END
+        

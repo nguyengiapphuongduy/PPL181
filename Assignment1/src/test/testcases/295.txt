@@ -1,0 +1,6 @@
+
+        procedure main(); begin
+            while (True) do begin e:=1; continue; break; end
+            return; return e;
+        END
+        

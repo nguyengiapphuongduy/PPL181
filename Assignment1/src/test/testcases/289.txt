@@ -1,0 +1,5 @@
+
+        procedure main(); begin
+            if( a = b or 100 or foo()[d] + 1 ) then a:= b[1];
+        END
+        

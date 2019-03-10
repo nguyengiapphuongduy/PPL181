@@ -1,0 +1,6 @@
+
+        procedure main () ;
+        begin
+            with a:integer do begin end
+        end
+        

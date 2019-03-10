@@ -1,0 +1,7 @@
+
+        procedure main (); begin
+            while (1) do begin
+                if (a<>b) then fuuuuu(f(a)[-1]+g(b));
+            end
+        end
+        

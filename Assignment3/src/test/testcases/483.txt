@@ -1,0 +1,6 @@
+function func(): array[1 .. 10] of real;
+		var x: array[1 .. 10] of real; i:integer;
+		begin for i:=1 to 10 do x[i]:=i*2; return x; end
+		function sq(m:integer):integer; begin return m*m; end
+		procedure main(); var a:real;
+		begin a:=func()[sq(2)]; fuc(); end

@@ -1,0 +1,2 @@
+procedure main(); begin putBool(foo(1,-1)); end
+		function foo(x:integer; y:real):boolean; begin putInt(0); if (x>y) then return true; else return false; end

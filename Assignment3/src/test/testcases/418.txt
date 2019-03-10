@@ -1,0 +1,5 @@
+var x:integer;y:boolean;
+		procedure main(); var x:boolean; begin
+		with x,y:integer;z:array[1 .. 2]of real; do
+		begin x:=1;y:=2;z[1]:=3;
+		x:=1.1; end end

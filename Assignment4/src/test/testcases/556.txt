@@ -1,0 +1,3 @@
+procedure main(); begin foo(5); end
+		procedure foo(x:integer); var y:integer; begin
+		putInt(0); y:=0; while y<x do begin y:=y+1;putInt(y);end end

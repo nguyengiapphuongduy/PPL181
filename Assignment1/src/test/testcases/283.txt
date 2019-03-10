@@ -1,0 +1,4 @@
+
+        var x:integer; y: array[x+y div z*foo() .. fdsa]of real;
+        procedure main (); var z:integer; begin end
+        

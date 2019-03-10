@@ -1,0 +1,1 @@
+procedure main(); begin f(1div 2mod 3); end

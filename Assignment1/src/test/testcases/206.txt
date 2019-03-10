@@ -1,0 +1,5 @@
+
+        procedure fu(a,b:integer;c:real);
+        begin end
+        procedure main(); begin end
+        

@@ -1,0 +1,4 @@
+var x,y:integer;
+		procedure main(); begin end
+		procedure p(i:boolean); begin end
+		function p(x:integer):real; begin return 1; end

@@ -1,0 +1,4 @@
+function gcd(a,b:integer):integer; var i,r:integer;
+		begin r:=1; for i:=1 to max(a,b) do if a mod i = 0 and then b mod i = 0 then r:=i; return r; end
+		function max(a,b:integer):integer; begin if a>b then return a; else return b; end
+		procedure main(); begin putInt(gcd(35,60)); end

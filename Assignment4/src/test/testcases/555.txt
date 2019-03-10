@@ -1,0 +1,2 @@
+procedure main(); begin putString(foo(true)); end
+		function foo(x:boolean):string; begin putInt(0); if x then return "True"; else return "False"; end

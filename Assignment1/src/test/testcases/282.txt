@@ -1,0 +1,4 @@
+
+        var x:integer; y: array[asdf .. fdsa]of real;
+        procedure main (); var z:integer; begin end
+        

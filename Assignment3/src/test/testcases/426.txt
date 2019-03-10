@@ -1,0 +1,4 @@
+procedure main(); var x:boolean; begin x:=foo(); end
+		function foo():integer; var a:real; begin
+		with a:integer;b:real; do begin with c:boolean; do return 1; end
+		end

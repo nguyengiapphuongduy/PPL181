@@ -1,0 +1,3 @@
+procedure main(); var x,y:integer; begin
+		x:=-100; y:=200; putInt(x); putInt(y); swap(x,y); putInt(x); putInt(y); end
+		procedure swap(x,y:integer); begin with a:integer; do begin a:=x; x:=y; y:=a; end end

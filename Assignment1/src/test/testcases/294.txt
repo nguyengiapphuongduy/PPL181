@@ -1,0 +1,5 @@
+
+        procedure main(); begin
+            if (a and b and then c or d and then f) then begin end
+        END
+        

@@ -1,0 +1,8 @@
+procedure proc();
+    begin
+        if a > 3 then
+            if a < 7 then 
+                b := b + 2;
+            else 
+                b := "huhuhu";
+    end

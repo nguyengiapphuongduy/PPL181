@@ -1,0 +1,5 @@
+
+        var a,b,c:integer;
+        d: array[1 .. 5] of real;
+        procedure main(); begin end
+        

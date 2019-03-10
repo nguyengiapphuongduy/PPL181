@@ -1,0 +1,9 @@
+
+        (*
+        a;lsdifjasvnbvik\        
+	
+        
+        she\s\g
+        *)
+        procedure main (); begin end
+        

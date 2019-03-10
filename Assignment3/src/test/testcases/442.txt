@@ -1,0 +1,5 @@
+function foo():integer; var a:integer; begin
+		while(1+true) do begin end
+		return 1;
+		end
+		procedure main(); var x:integer; begin x:=foo(); foo(); end

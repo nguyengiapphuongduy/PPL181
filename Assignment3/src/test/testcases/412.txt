@@ -1,0 +1,3 @@
+var x,y:integer;
+		procedure main(); var x:real; begin x:=y(1,false); end
+		function y(a:integer;b:boolean):integer; begin return 1; end

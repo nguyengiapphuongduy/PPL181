@@ -1,0 +1,40 @@
+program -> manydecl
+manydecl -> onedecl manydecl | onedecl
+onedecl -> type idlist SM
+
+type -> INT | FLOAT
+
+idlist -> ID idlistt
+idlistt -> CM ID idlistt | NULL
+
+func_decl -> type ID param_decl body
+
+param_decl -> LP manyparam RP
+manyparam -> param manyparamm | NULL
+manyparamm -> SM param manyparamm | NULL
+param -> type idlist
+
+body -> LB member_list RB
+member_list -> onemember member_list | NULL
+onemember -> vardecl | stmt
+
+stmt -> stmttype
+stmttype -> assignment | call | return
+assignment -> ID EQ expression
+call -> ID LP expression_list RP
+return -> RETURN expression
+expression_list -> exp manyexp | NULL
+manyexp -> CM exp manyexp | NULL
+
+exp -> exp1 ADD exp | exp1
+exp1 -> exp2 SUB exp2 | exp2
+exp2 -> exp2 MUL exp3 | exp2 DIV exp3 | exp3
+
+exp3 -> INTLIT | FLOATLIT | ID | call | LP exp RP
+
+
+
+***NOTE***
+	NULL|one|many:
+		many -> one manyy | NULL
+		manyy -> [separator] one manyy | NULL

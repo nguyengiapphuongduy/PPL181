@@ -1,0 +1,1 @@
+function main():boolean; begin return true; end

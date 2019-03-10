@@ -1,0 +1,6 @@
+procedure main(); var x:integer;
+		begin while(true)do begin
+		with x:integer; do with x:real; do begin
+			if (x>0) then break;
+			with x:integer; do if (x=0) then break; else return;
+		end{with} end{while} foo(); end

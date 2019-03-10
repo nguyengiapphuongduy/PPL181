@@ -1,0 +1,1 @@
+var r: real; procedure main(); begin r:=getInt(); f(); end

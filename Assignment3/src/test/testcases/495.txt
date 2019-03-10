@@ -1,0 +1,13 @@
+function f(): boolean;
+		var a,b,c,d:integer;
+		begin
+			if a > b then
+				if c > d then
+					return True;
+				else
+					return False;
+			else
+				with f: integer; do
+					return True;
+		end
+		procedure main(); var x:boolean; begin x:=f(); foo(); end

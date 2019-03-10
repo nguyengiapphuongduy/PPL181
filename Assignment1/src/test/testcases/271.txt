@@ -1,0 +1,8 @@
+
+        var a:integer; BbBb:real;
+        cccC:array[n..m] of real;
+        var x:integer;
+        procedure main (); var y:integer; begin
+            a:=1;
+        end
+        

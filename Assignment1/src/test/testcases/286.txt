@@ -1,0 +1,9 @@
+
+        procedure foo(aaaasdf: real) ;
+        var x:real ;
+        BEGIN
+        if(aaaasdf>1) then beGin
+            aaaasdf:=1 ;
+            if(x=1) then aaaasdf:= b[1];
+            else b:=aaaasdf[1]:= 1;end END
+        

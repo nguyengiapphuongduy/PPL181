@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[AssignStmt(Id(a),BinaryOp(+,Id(a),IntLiteral(1))),CallStmt(Id(fuckasdfthisjklassignment),[])])])

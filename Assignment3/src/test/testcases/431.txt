@@ -1,0 +1,4 @@
+procedure main(); var x:integer; begin x:=foo(); end
+		function foo():integer; var a:real; begin
+		if a>0 then return 0;
+		end

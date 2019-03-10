@@ -1,0 +1,5 @@
+
+        procedure main(); begin
+            if f()[1]>1 then fu();
+        end
+        

@@ -1,0 +1,9 @@
+
+        var a:integer; var BbBb:real;
+        function foo(x:integer): real; begin end
+        procedure pr(); begin end
+        var x:integer;
+        procedure main (); var y:integer; begin
+            a:=1;
+        end
+        

@@ -1,0 +1,1 @@
+procedure main(); begin a[-10]:=stfu()[0]:=c:=True or false; end

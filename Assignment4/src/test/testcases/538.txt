@@ -1,0 +1,1 @@
+procedure main(); begin putBool(not(1>0)); end

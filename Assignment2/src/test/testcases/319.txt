@@ -1,0 +1,6 @@
+function f():real; begin
+		if (x) then
+			begin
+				f(x);
+			end
+		end
